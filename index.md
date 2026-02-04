@@ -9,7 +9,7 @@ header:
 intro:
   - excerpt: 'Voici un exemple de.'
 feature_row_overview:
-  - image_path: /images/robinson1.png
+  - image_path: /images/hotel.jpg
     alt: "Hotel Faranda Rías Altas"
     title: "Hotel Faranda Rías Altas"
     excerpt: "Enjoy full-board accommodation in the welcoming atmosphere of Hotel Faranda Rías Altas located right at the Santa Cristina Beach in the Ría da Coruña
