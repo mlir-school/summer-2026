@@ -10,9 +10,10 @@ intro:
   - excerpt: 'Voici un exemple de.'
 feature_row_overview:
   - image_path: /images/robinson1.png
-    alt: "Robinson College"
-    title: "Robinson College"
-    excerpt: "Enjoy full-board accommodation in the welcoming atmosphere of Robinson College—ideally located between the historic city center and the Computer Science Department. Its stunning gardens, peaceful setting and fully-equipped conference building, offer a place **perfect to focus, connect, and learn**."
+    alt: "Hotel Faranda Rías Altas"
+    title: "Hotel Faranda Rías Altas"
+    excerpt: "Enjoy full-board accommodation in the welcoming atmosphere of Hotel Faranda Rías Altas located right at the Santa Cristina Beach in the Ría da Coruña
+bay. Beautiful Spain close to the water, can there be a better place to **focus, connect, and learn**?"
   - image_path: /images/school2b.png
     alt: "Hands-on Courses"
     title: "Hands-on Courses"
