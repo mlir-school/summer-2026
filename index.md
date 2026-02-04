@@ -20,16 +20,12 @@ feature_row_overview:
 ---
 
 **Note:** 
-**Experience Level** This summer school is for beginners. Yet, we keep rooms available for self-organized parallel discussions which experts can use. This follows
-the style of our 2025 winter school in Paris. We experimented with an expert-focused MLIR (Un)School in Summer 2025 in Cambridge. The summer 2026 MLIR school
-focuses again on providing an excellent beginners program and does not offer a
-dedicated expert program. However, our space has many breakout areas which can be used
-for self-led expert discussions.
-{: .notice--info}
+This summer school is specially designed for beginners and everyone who wants deepen their knowledge about the MLIR foundations. Taking into account feedback
+from earlier editions, we will provide significant more space for people who are relatively new to MLIR.
 
-
-MLIR is revolutionizing compiler technology! At the beaches of La Coruña, we provide space and content to learn about MLIR.
-
+We embrace self-organization and keep rooms available for self-organized parallel discussions on focus topics. This follows
+the style of our 2025 winter school in Paris. We experimented with an expert-focused MLIR (Un)School in Summer 2025 in Cambridge. At this
+school, we will not offer a dedicated expert program but offer space for experts (and anyone else).
 
 {% include feature_row id="feature_row_overview" %}
 
