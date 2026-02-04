@@ -26,7 +26,7 @@ We keep rooms available for self-organized parallel discussions on focus
 topics. While we experimented with an expert-focused MLIR (Un)School in Summer
 2025 in Cambridge, this iteration of the MLIR school follows again its roots
 and will be in the spirit of the Paris 2025 winter school. 
-+-{: .notice--info}
+-{: .notice--info}
 
 {% include feature_row id="feature_row_overview" %}
 
