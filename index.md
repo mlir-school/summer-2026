@@ -26,6 +26,7 @@ from earlier editions, we will provide significant more space for people who are
 We embrace self-organization and keep rooms available for self-organized parallel discussions on focus topics. This follows
 the style of our 2025 winter school in Paris. We experimented with an expert-focused MLIR (Un)School in Summer 2025 in Cambridge. At this
 school, we will not offer a dedicated expert program but offer space for experts (and anyone else).
+-{: .notice--info}
 
 {% include feature_row id="feature_row_overview" %}
 
