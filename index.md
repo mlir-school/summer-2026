@@ -22,11 +22,12 @@ feature_row_overview:
 **Note:** 
 This summer school is specially designed for beginners and everyone interested in MLIR and its foundations. Taking into account feedback
 from earlier editions, we will provide significant more space for people who are relatively new to MLIR.
-
 We keep rooms available for self-organized parallel discussions on focus
 topics. While we experimented with an expert-focused MLIR (Un)School in Summer
 2025 in Cambridge, this iteration of the MLIR school follows again its roots
 and will be in the spirit of the Paris 2025 winter school. 
++-{: .notice--info}
+
 {% include feature_row id="feature_row_overview" %}
 
 {: .text-center}
