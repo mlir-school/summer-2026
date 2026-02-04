@@ -28,6 +28,13 @@ topics. While we experimented with an expert-focused MLIR (Un)School in Summer
 and will be in the spirit of the Paris 2025 winter school. 
 {: .notice--info}
 
+MLIR is revolutionizing compiler technology! In just a few years, MLIR has
+established itself as a central compiler framework for AI, EDA, quantum
+computing, and crypto compilers. The resulting many-domain ecosystem is of
+unseen size and diversity, creating exciting opportunities for formal
+verification and the use of AI for compilers. Learn how to use MLIR for your
+projects.
+
 {% include feature_row id="feature_row_overview" %}
 
 {: .text-center}
