@@ -1,14 +1,10 @@
 main:
   - title: "Home"
     url: /
-  - title: "Expert Themes"
-    url: /themes/
   - title: "Schedule"
     url: /schedule/
   - title: "Logistics"
     url: /logistics/
-  - title: "Open Friday"
-    url: /open-friday/
   - title: "Organization"
     url: /organization/
   - title: "Series"
