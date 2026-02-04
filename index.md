@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "MLIR School - school for beginners with time, space for experts"
+title: "MLIR School - for beginners with space for experts"
 subtitle: "MLIR School - school for beginners, experts welcome"
 excerpt: "9 - 14 August 2026, A Coruña, ES"
 header:
