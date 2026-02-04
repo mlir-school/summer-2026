@@ -5,7 +5,7 @@ excerpt: "9 - 14 August 2026, A Coruña, ES"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /images/Autumn_Cam.png
+  overlay_image: /images/coruna.jpg
 intro:
   - excerpt: 'Voici un exemple de.'
 feature_row_overview:
