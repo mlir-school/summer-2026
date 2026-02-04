@@ -17,26 +17,21 @@ feature_row_overview:
     alt: "Hands-on Courses"
     title: "Hands-on Courses"
     excerpt: "Start your journey with MLIR by diving into its core concepts and infrastructure. Our course will guide you through the fundamentals of SSA, operator lowering, and dialect definition. By the end, these essential building blocks will no longer be mysteries. Instead, you will **design MLIR compilers with confidence**."
-  - image_path: /images/school1b.png
-    alt: "Expert Collaboration"
-    title: "Expert Collaboration"
-    excerpt: "MLIR empowers experts across domains! Our interactive mini workshops enable expert collaboration across **scheduling languages**, **formal methods**, **hardware verification**, **quantum computing**, **crypto** and **AI**. Connect with motivated students and shape the MLIR community for your domain!"
 ---
 
-**Note:** Registration for the (Un)School has closed. Register for our [Open Friday](/open-friday) on Friday, September 12, with larger capacity and free attendance.
+**Note:** 
+**Experience Level** This summer school is for beginners. Yet, we keep rooms available for self-organized parallel discussions which experts can use. This follows
+the style of our 2025 winter school in Paris. We experimented with an expert-focused MLIR (Un)School in Summer 2025 in Cambridge. The summer 2026 MLIR school
+focuses again on providing an excellent beginners program and does not offer a
+dedicated expert program. However, our space has many breakout areas which can be used
+for self-led expert discussions.
 {: .notice--info}
 
 
-MLIR is revolutionizing compiler technology! In just a few years, MLIR has established itself as a central compiler framework for AI, EDA, quantum computing, and crypto compilers. The resulting many-domain ecosystem is of unseen size and diversity, creating exciting opportunities for formal verification and the use of AI for compilers. With core MLIR developers at the center and welcoming domain expertise from new community members,
-we focus on high-bandwidth expert-to-expert cross-domain collaboration that fuels MLIR innovation.
+MLIR is revolutionizing compiler technology! At the beaches of La Coruña, we provide space and content to learn about MLIR.
 
-In the gardens of Robinson College Cambridge, we *bring together MLIR experts, domain specialists, and students* to accelerate MLIR innovation. The **MLIR (Un)School** will experiment with an interactive event format, aiming for a participatory event centered around **peer-learning and expert conversations**. We will also offer some foundational courses.
-
-We identified a set of [technical themes](themes) which we will innovate on.
 
 {% include feature_row id="feature_row_overview" %}
-
-
 
 {: .text-center}
 **Partners:**
