@@ -8,26 +8,19 @@ header:
   overlay_image: /images/event-building.jpg
 ---
 
+The MLIR Summer School 2026 will take place in the [Faranda Rías Altas Hotel](https://www.farandahotels.com/hotel/hotel-faranda-rias-altas-ascend-hotel-collection), situated on the Santa Cristina beachfront, in the municipality of Oleiros, in the [A Coruña metropolitan area](https://en.wikipedia.org/wiki/A_Coru%C3%B1a).
+
 # Getting Here
 
-From Monday to Thursday, the MLIR (Un)School is being hosted in the Robinson College [Crausaz Wordsworth Building](https://www.robinson.cam.ac.uk/conferences/meet/crausaz-wordsworth-building). Instructions on how to get to Robinson College from Cambridge Station can be found on the [Robinson College website](https://www.robinson.cam.ac.uk/contact-us/visiting-robinson/public-transport). 
+[Google Maps](https://maps.google.com) is the most reliable tool for real-time bus routes, schedules, and transfers in the A Coruña metro area, integrating the different companies that run bus services effectively. Depending on the time of your arrival, bus schedules may not be the most convenient option. Taxis are readily available at the airport. The ride takes about 15 minutes and costs around 20€. Uber and similar VTC rideshares can be used as a fallback option.
 
-On Friday, the (Un)School will shift to the [William Gates Building](https://maps.app.goo.gl/cyk3iKnv5FUgE6xe7) for the [Open Friday](open-friday).
-
-<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2038.3355040998117!2d0.10293745888900475!3d52.20532232018525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d870b142eed76b%3A0x576ce34c87efbddd!2sCrausaz%20Wordsworth%20Building%2C%20Robinson%20College!5e0!3m2!1sen!2suk!4v1757071861284!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5665.63187633467!2d0.09423076299846804!3d52.21007263301648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8774a3fdc414b%3A0xe98fb897497ce850!2sWilliam%20Gates%20Building%2C%2015%20JJ%20Thomson%20Ave%2C%20Cambridge%20CB3%200FD!5e0!3m2!1sen!2suk!4v1757605495623!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d4787.225402021185!2d-8.380007106378127!3d43.33930012552246!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2e7b4f4cd56473%3A0x978bc5f77f50e98d!2sHotel%20Faranda%20R%C3%ADas%20Altas%2C%20Ascend%20Hotel%20Collection!5e1!3m2!1sen!2ses!4v1769940471964!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ### Accommodation
 
-If you booked accommodation, you will be staying in Robinson College and [the same instructions on how to get there apply](https://www.robinson.cam.ac.uk/contact-us/visiting-robinson/public-transport). Please check-in at the Robinson College Porters' Lodge at any time after 1.30 PM. They are open 24/7 for check-in at any time afterwards.
+Full-board accomodation and social events are included in the registration price. Attendants can choose between single- and double-room accomodation during the registration process. 
 
-Please take note that if you are planning to take the university buses, the last U bus on Sunday departs the station at 8.39 PM.
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5473.356577283845!2d0.10478836352597375!3d52.20424011502731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d870b1020987a1%3A0xd53fc9646c4ca42e!2sRobinson%20College!5e0!3m2!1sen!2suk!4v1757071370457!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-
-
+<!--
 ### Frequently Asked Questions
 
 **What is provided by the Robinson College accommodations?**
@@ -57,3 +50,4 @@ If you stay in accommodation, there is additional breakfast available at the Gar
 * [Moana Poke Bowls](https://maps.app.goo.gl/isqZ4UzmCFa1TGee9): Healthy (and tasty) poke bowls.
 * [Bedouin](https://www.bedouin-cambridge.com/): North African food. Always full, so make a reservation in advance.
 * [Dishoom](https://www.permitroom.co.uk/locations/cambridge/): Really good Indian food - the crispy spinach chaat and the black daal are really good.
+-->

@@ -1,9 +1,7 @@
-title: MLIR School
+title: MLIR Summer School 2026
 
 remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-include-cache
 atom_feed:
   hide: true
-    
-
