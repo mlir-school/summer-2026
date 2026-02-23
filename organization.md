@@ -27,6 +27,20 @@ feature_row_sc:
     alt: "P.Sadayappan"
     title: "P.Sadayappan"
     excerpt: "*U. of Utah*"
+feature_row_pc:
+#FIXME:ask Kunwar about this picture
+  - image_path: /images/photo_kunwar.jpg
+    alt: "Kunwar Grover"
+    title: "K. Grover"
+    excerpt: "*AMD*"
+  - image_path:
+    alt: ""
+    title: ""
+    excerpt: ""
+  - image_path: /images/photo_saday.png
+    alt: "P.Sadayappan"
+    title: "P.Sadayappan"
+    excerpt: "*U. of Utah*"
 feature_row_oc:
 #FIXME:change this picture
   - image_path: /images/photo_gabriel.jpg
@@ -57,6 +71,10 @@ feature_row_teachers:
 ---
 
 *The MLIR Compiler School and Workshop is hosted by the University of Cambridge. Its organization is overseen by the steering committee. The event is supported by various international institutions and companies.*
+
+# Program Chairs
+
+{% include feature_row id="feature_row_pc" %}
 
 # Steering Committee
 
