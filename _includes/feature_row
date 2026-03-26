@@ -1,0 +1,59 @@
+{% if include.id %}
+  {% assign feature_rows = page[include.id] %}
+{% else %}
+  {% assign feature_rows = page.feature_row %}
+{% endif %}
+
+{% if feature_rows.size == 1 %}
+  {% assign entries_layout = 'half' %}
+{% elsif feature_rows.size == 2 %}
+  {% assign entries_layout = 'half' %}
+{% else %}
+  {% assign entries_layout = 'third' %}
+{% endif %}
+
+{% if include.type %}
+  {% assign entries_layout = include.type %}
+{% endif %}
+
+<div class="feature__wrapper">
+
+  {% if include.title %}
+    <h2 class="archive__subtitle">{{ include.title }}</h2>
+  {% endif %}
+
+  {% for f in feature_rows %}
+    <div class="feature__item{% if entries_layout == 'left' %} feature__item--left{% elsif entries_layout == 'right' %} feature__item--right{% elsif entries_layout == 'center' %} feature__item--center{% endif %}">
+      <div class="archive__item">
+        {% if f.image_path %}
+          <div class="archive__item-teaser">
+            {% if f.label %}
+              <span class="feature__label">{{ f.label }}</span>
+            {% endif %}
+            <img src="{{ f.image_path | absolute_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+            {% if f.image_caption %}
+              <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        <div class="archive__item-body">
+          {% if f.title %}
+            <h2 class="archive__item-title">{{ f.title }}</h2>
+          {% endif %}
+
+          {% if f.excerpt %}
+            <div class="archive__item-excerpt">
+              {{ f.excerpt | markdownify }}
+            </div>
+          {% endif %}
+
+          {% if f.url %}
+            <p><a href="{{ f.url | absolute_url }}" class="btn {% if f.btn_class %}{{ f.btn_class }}{% else %}btn--primary{% endif %}">{% if f.btn_label %}{{ f.btn_label }}{% else %}{{ site.data.ui-text[site.locale].more_label | default: 'Learn More' }}{% endif %}</a></p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+</div>
