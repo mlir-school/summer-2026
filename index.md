@@ -34,7 +34,7 @@ MLIR is reshaping the future of compiler technology. In only a few years, it has
 
 Set on the seafront of Santa Cristina beach, in Perillo (A Coruña), the school combines hands‑on foundational courses with informal discussions, collaborative exercises, and community‑building activities in an inspiring seaside setting. Throughout the week, participants will learn the fundamentals of MLIR, explore practical applications across domains, and connect with developers and researchers from around the world. And if weather allows, we will also take the opportunity to observe the solar eclipse on August 12, making this edition not only technically enriching, but memorable on a personal level as well.
 
-**Note:** You can pre-register for the MLIR Summer School 2026 through [this link](https://www.fundacion.udc.es/curso.asp?id=2340&idioma=EN).
+**Note:** You can pre-register for the MLIR Summer School 2026 through [this link](https://forms.cloud.microsoft/e/828iRdQ1Y0?origin=lprLink).
 {: .notice--info}
 
 {% include feature_row id="feature_row_overview" %}
