@@ -22,8 +22,13 @@ feature_row_overview:
 ---
 
 
-**Note:** Applications are open. [Apply for the MLIR Summer School 2026](https://forms.cloud.microsoft/e/828iRdQ1Y0?origin=lprLink)!.
+**Note:** Applications are open! [Apply for the MLIR Summer School 2026](https://forms.cloud.microsoft/e/828iRdQ1Y0?origin=lprLink)!
 {: .notice--info}
+
+
+MLIR is reshaping the future of compiler technology. In only a few years, it has grown into a foundational framework powering AI, EDA, HPC, quantum computing, and cutting‑edge cryptographic toolchains. Its rapidly expanding multi‑domain ecosystem offers unique opportunities for learning, collaboration, and innovation. The 2026 MLIR Summer School is designed especially for beginners, offering a welcoming environment where students, early‑career researchers, and newcomers can take their first steps into MLIR, while still providing space for experts to meet, exchange ideas, and shape the future of the ecosystem together.
+
+Set on the seafront of Santa Cristina beach, in Perillo (A Coruña), the school combines hands‑on foundational courses with informal discussions, collaborative exercises, and community‑building activities in an inspiring seaside setting. Throughout the week, participants will learn the fundamentals of MLIR, explore practical applications across domains, and connect with developers and researchers from around the world. And if weather allows, we will also take the opportunity to observe the solar eclipse on August 12, making this edition not only technically enriching, but memorable on a personal level as well.
 
 **Note:** 
 This summer school is designed for beginners and everyone interested in MLIR and its foundations. Taking into account feedback
@@ -33,11 +38,6 @@ topics. While we experimented with an expert-focused MLIR (Un)School in Summer
 2025 in Cambridge, this iteration of the MLIR school follows again its roots
 and will be in the spirit of the Paris 2025 winter school. 
 {: .notice--info}
-
-MLIR is reshaping the future of compiler technology. In only a few years, it has grown into a foundational framework powering AI, EDA, HPC, quantum computing, and cutting‑edge cryptographic toolchains. Its rapidly expanding multi‑domain ecosystem offers unique opportunities for learning, collaboration, and innovation. The 2026 MLIR Summer School is designed especially for beginners, offering a welcoming environment where students, early‑career researchers, and newcomers can take their first steps into MLIR, while still providing space for experts to meet, exchange ideas, and shape the future of the ecosystem together.
-
-Set on the seafront of Santa Cristina beach, in Perillo (A Coruña), the school combines hands‑on foundational courses with informal discussions, collaborative exercises, and community‑building activities in an inspiring seaside setting. Throughout the week, participants will learn the fundamentals of MLIR, explore practical applications across domains, and connect with developers and researchers from around the world. And if weather allows, we will also take the opportunity to observe the solar eclipse on August 12, making this edition not only technically enriching, but memorable on a personal level as well.
-
 {% include feature_row id="feature_row_overview" %}
 
 {: .text-center}
