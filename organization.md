@@ -10,7 +10,7 @@ feature_row_sc:
   - image_path: /images/photo_hugo.png
     alt: "Hugo Pompougnac"
     title: "H.Pompougnac"
-    excerpt: "*INRIA*"
+    excerpt: "*Flow Computing*"
   - image_path: /images/photo_fabrice.png
     alt: "Fabrice Rastello"
     title: "F.Rastello"
