@@ -21,6 +21,10 @@ feature_row_overview:
     excerpt: "Start your journey with MLIR by diving into its core concepts and infrastructure. Our course will guide you through the fundamentals of SSA, operator lowering, and dialect definition. By the end, these essential building blocks will no longer be mysteries. Instead, you will **design MLIR compilers with confidence**."
 ---
 
+
+**Note:** Applications are open. [Apply for the MLIR Summer School 2026](https://forms.cloud.microsoft/e/828iRdQ1Y0?origin=lprLink)!.
+{: .notice--info}
+
 **Note:** 
 This summer school is designed for beginners and everyone interested in MLIR and its foundations. Taking into account feedback
 from earlier editions, we will provide significant more space for people who are relatively new to MLIR.
@@ -33,9 +37,6 @@ and will be in the spirit of the Paris 2025 winter school.
 MLIR is reshaping the future of compiler technology. In only a few years, it has grown into a foundational framework powering AI, EDA, HPC, quantum computing, and cutting‑edge cryptographic toolchains. Its rapidly expanding multi‑domain ecosystem offers unique opportunities for learning, collaboration, and innovation. The 2026 MLIR Summer School is designed especially for beginners, offering a welcoming environment where students, early‑career researchers, and newcomers can take their first steps into MLIR, while still providing space for experts to meet, exchange ideas, and shape the future of the ecosystem together.
 
 Set on the seafront of Santa Cristina beach, in Perillo (A Coruña), the school combines hands‑on foundational courses with informal discussions, collaborative exercises, and community‑building activities in an inspiring seaside setting. Throughout the week, participants will learn the fundamentals of MLIR, explore practical applications across domains, and connect with developers and researchers from around the world. And if weather allows, we will also take the opportunity to observe the solar eclipse on August 12, making this edition not only technically enriching, but memorable on a personal level as well.
-
-**Note:** You can pre-register for the MLIR Summer School 2026 through [this link](https://forms.cloud.microsoft/e/828iRdQ1Y0?origin=lprLink).
-{: .notice--info}
 
 {% include feature_row id="feature_row_overview" %}
 
