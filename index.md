@@ -36,7 +36,7 @@ from earlier editions, we will provide significant more space for people who are
 We keep meeting rooms available for self-organized parallel discussions on focus
 topics. While we experimented with an expert-focused MLIR (Un)School in Summer
 2025 in Cambridge, this iteration of the MLIR school follows again its roots
-and will be in the beginner-focused spirit of the first mlir (winter) school in Paris. 
+and will be in the beginner-focused spirit of the first MLIR (winter) school in Paris. 
 {: .notice--info}
 {% include feature_row id="feature_row_overview" %}
 
