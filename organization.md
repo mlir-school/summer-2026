@@ -44,6 +44,22 @@ feature_row_pc:
     excerpt: "*U. of Utah*"
     label: "Program Co-Chair"
 feature_row_teachers:
+  - image_path: /images/photo_matthias.png
+    alt: "Matthias Springer"
+    title: "M. Springer"
+    excerpt: "*NVIDIA*"
+  - image_path: /images/photo_markus.jpg
+    alt: "Markus Böck"
+    title: "M. Böck"
+    excerpt: "*ETH Zürich*"
+  - image_path: /images/photo_mathieu.jpg
+    alt: "Mathieu Fehr"
+    title: "M. Fehr"
+    excerpt: "*U. of Edinburgh*"
+  - image_path:
+    alt: ""
+    title: ""
+    excerpt: ""
   - image_path:
     alt: ""
     title: ""
@@ -51,11 +67,7 @@ feature_row_teachers:
   - image_path:
     alt: ""
     title: ""
-    excerpt: "*to be completed*"
-  - image_path:
-    alt: ""
-    title: ""
-    excerpt: "*to be completed*"
+    excerpt: ""
 ---
 
 *The MLIR Summer School 2026 is hosted by the University of A Coruña. Its organization is overseen by the steering committee. The event is supported by various international institutions and companies.*
@@ -66,9 +78,9 @@ feature_row_teachers:
 
 {% include_cached feature_row id="feature_row_sc" %}
 
-<!-- # Teachers -->
+# Teachers
 
-<!-- {% include_cached feature_row id="feature_row_teachers" %} -->
+{% include_cached feature_row id="feature_row_teachers" %}
 
 # Sponsorship
 
