@@ -1,8 +1,8 @@
 main:
   - title: "Home"
     url: /
-  - title: "Schedule"
-    url: /schedule/
+  - title: "Program"
+    url: /program/
   - title: "Logistics"
     url: /logistics/
   - title: "Organization"

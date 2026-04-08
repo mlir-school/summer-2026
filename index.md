@@ -22,7 +22,7 @@ feature_row_overview:
 ---
 
 
-**Note:** Applications are open! [Apply for the MLIR Summer School 2026](https://forms.cloud.microsoft/e/828iRdQ1Y0?origin=lprLink)!
+**Note:** Applications are open! [Apply for the MLIR Summer School 2026](https://forms.cloud.microsoft/e/828iRdQ1Y0?origin=lprLink)! **Application deadline: May 15th.**
 {: .notice--info}
 
 
