@@ -22,9 +22,8 @@ feature_row_overview:
 ---
 
 
-**Note:** Applications are open! [Apply for the MLIR Summer School 2026](https://forms.cloud.microsoft/e/828iRdQ1Y0?origin=lprLink)! **Application deadline: May 15th.**
+**Note:** Applications are closed. Applicants will receive information about their acceptance status in the next few weeks.
 {: .notice--info}
-
 
 MLIR is reshaping the future of compiler technology. In only a few years, it has grown into a foundational framework powering AI, EDA, HPC, quantum computing, and cutting‑edge cryptographic toolchains. Its rapidly expanding multi‑domain ecosystem offers unique opportunities for learning, collaboration, and innovation. The 2026 MLIR Summer School is designed especially for beginners, offering a welcoming environment where students, early‑career researchers, and newcomers can take their first steps into MLIR, while still providing space for experts to meet, exchange ideas, and shape the future of the ecosystem together.
 
