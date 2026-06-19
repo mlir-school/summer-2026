@@ -42,28 +42,76 @@ feature_row_speakers:
     excerpt: "*NVIDIA*"
 ---
 
-*The summer school will begin on the morning of Monday, August 10th. If you are
-travelling from afar, we recommend arriving the day before, on Sunday the 9th.
-Courses will take place 10:00 - 14:00 and 16:00 - 20:00 from Monday to Thursday,
-and 10:00 - 14:00 on Friday.*
+**Note:** This is a preliminary program.
+{: .notice--info}
+<!--
+**Note:** The MLIR School is a dynamic event → Our Schedule evolves until and throughout the school.
+{: .notice--info}
+-->
 
-*More details and the full program will be shared on this page as they become
-available.*
+<h2>Day 1 | Monday, Aug 10</h2>
+
+| Time  | |
+| ----- | ------------------------ |
+| 10:00 | **Arrival & Intro**<br>*Kunwar Grover & Tobias Grosser* |
+| 11:45 | *Coffee break* |
+| 12:15 | **Compiler Introduction**<br>*Tobias Grosser & Saday Sadayappan* |
+| 14:00 | *Lunch* |
+| 16:00 | **MLIR IR Introduction**<br>*Théo Degioanni* |
+| 17:45 | *Coffee break* |
+| 18:15 | **Poster session** |
+| 20:00 | --- End of day--- |
+
+
+<h2>Day 2 | Tuesday, Aug 11</h2>
+
+| Time  | |
+| ----- | ------------------------ |
+| 10:00 | **ODS**<br>*Markus Böck* |
+| 11:45 | *Coffee Break* |
+| 12:15 | **Building transformations 1**<br>*Matthias Springer* |
+| 14:00 | *Lunch* |
+| 16:00 | **Building transformations 2**<br>*Matthias Springer* |
+| 17:45 | *Coffee break* |
+| 18:15 | **Core transformations**<br>*Matthias Springer* |
+| 20:00 | --- End of day--- |
+
+<h2>Day 3 | Wednesday, Aug 12</h2>
+
+| Time  | |
+| ----- | ------------------------ |
+| 10:00 | **Interfaces**<br>*Matthias Springer* |
+| 11:45 | *Coffee Break* |
+| 12:15 | **Mem2Reg**<br>*Théo Degioanni* |
+| 14:00 | *Lunch* |
+| 16:00<br>17:45<br>18:15<br>20:00<br> | <br>*Solar*<br>*Eclipse*<br><br> |
+| 22:00 | --- End of day--- |
+
+
+<h2>Day 4 | Thursday, Aug 13</h2>
+
+
+| Time  | |
+| ----- | ------------------------ |
+| 10:00 | **Data flow analysis**<br>*Mathieu Fehr* |
+| 11:45 | *Coffee Break* |
+| 12:15 | **IR data structures and performance**<br>*Mathieu Fehr* |
+| 14:00 | *Lunch* |
+| 16:00 | **Cuda Tile IR** |
+| 17:45 | *Coffee break* |
+| 18:15 | **Transform dialect**<br>*Maximilian Bartel* |
+| 20:00 | --- End of day--- |
+
+<h2>Day 5 | Friday, Aug 14</h2>
+
+
+| Time  | |
+| ----- | ------------------------ |
+| 10:00 | **TBD**
+| 11:45 | *Coffee Break* |
+| 12:15 | **TBD**
+| 14:00 | --- *Closing & Lunch* --- |
 
 # Speakers
 
 {% include_cached feature_row id="feature_row_speakers" %}
-
-<!--
-# Monday-Thursday | Sep 8-11, 2025
-
-MLIR School and Workshop
-
-(school attendees only)
-
-# Friday | Sep 12, 2025
-
-MLIR Compilation Community Workshop
-
-(school attendees and external community members)
--->
