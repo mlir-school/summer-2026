@@ -4,30 +4,42 @@ layout: single
 title: "Program"
 permalink: /program/
 feature_row_speakers:
-  - image_path: /images/photo_matthias.png
-    alt: "Matthias Springer"
-    title: "M. Springer"
-    excerpt: "*NVIDIA*"
+  - image_path: /images/photo_max.jpg
+    alt: "Maximilian Bartel"
+    title: "M. Bartel"
+    excerpt: "roofline"
   - image_path: /images/photo_markus.jpg
     alt: "Markus Böck"
     title: "M. Böck"
     excerpt: "*ETH Zürich*"
+  - image_path: /images/photo_theo.jpg
+    alt: "Théo Degioanni"
+    title: "T. Degioanni"
+    excerpt: "NVIDIA"
   - image_path: /images/photo_mathieu.jpg
     alt: "Mathieu Fehr"
     title: "M. Fehr"
     excerpt: "*U. of Edinburgh*"
-  - image_path:
-    alt: ""
-    title: ""
-    excerpt: ""
-  - image_path:
-    alt: ""
-    title: ""
-    excerpt: "*to be completed*"
-  - image_path:
-    alt: ""
-    title: ""
-    excerpt: ""
+  - image_path: /images/photo_tobias.png
+    alt: "Tobias Grosser"
+    title: "T.Grosser"
+    excerpt: "*U. of Cambridge*"
+  - image_path: /images/photo_kunwar.jpg
+    alt: "Kunwar Grover"
+    title: "K. Grover"
+    excerpt: "*AMD*"
+  - image_path: /images/photo_louis.jpg
+    alt: "Louis Ledoux"
+    title: "L. Ledoux"
+    excerpt: "*INRIA*"
+  - image_path: /images/photo_saday.png
+    alt: "P.Sadayappan"
+    title: "P.Sadayappan"
+    excerpt: "*U. of Utah*"
+  - image_path: /images/photo_matthias.png
+    alt: "Matthias Springer"
+    title: "M. Springer"
+    excerpt: "*NVIDIA*"
 ---
 
 *The summer school will begin on the morning of Monday, August 10th. If you are
