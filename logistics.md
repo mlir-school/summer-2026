@@ -8,7 +8,7 @@ header:
   overlay_image: /images/event-building.jpg
 ---
 
-The MLIR Summer School 2026 will take place in the [Faranda Rías Altas Hotel](https://www.farandahotels.com/hotel/hotel-faranda-rias-altas-ascend-hotel-collection), situated on the Santa Cristina beachfront, in the municipality of Oleiros, in the [A Coruña metropolitan area](https://en.wikipedia.org/wiki/A_Coru%C3%B1a).
+The ACM Europe School on MLIR 2026 will take place in the [Faranda Rías Altas Hotel](https://www.farandahotels.com/hotel/hotel-faranda-rias-altas-ascend-hotel-collection), situated on the Santa Cristina beachfront, in the municipality of Oleiros, in the [A Coruña metropolitan area](https://en.wikipedia.org/wiki/A_Coru%C3%B1a).
 
 # Getting Here
 

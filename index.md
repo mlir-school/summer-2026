@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "MLIR Summer School 2026"
+title: "ACM Europe School on MLIR 2026"
 excerpt: "10 - 14 August 2026, A Coruña, Spain"
 header:
   overlay_color: "#000"
@@ -25,7 +25,7 @@ feature_row_overview:
 **Note:** Applications are closed. Applicants will receive information about their acceptance status in the next few weeks.
 {: .notice--info}
 
-MLIR is reshaping the future of compiler technology. In only a few years, it has grown into a foundational framework powering AI, EDA, HPC, quantum computing, and cutting‑edge cryptographic toolchains. Its rapidly expanding multi‑domain ecosystem offers unique opportunities for learning, collaboration, and innovation. The 2026 MLIR Summer School is designed especially for beginners, offering a welcoming environment where students, early‑career researchers, and newcomers can take their first steps into MLIR, while still providing space for experts to meet, exchange ideas, and shape the future of the ecosystem together.
+MLIR is reshaping the future of compiler technology. In only a few years, it has grown into a foundational framework powering AI, EDA, HPC, quantum computing, and cutting‑edge cryptographic toolchains. Its rapidly expanding multi‑domain ecosystem offers unique opportunities for learning, collaboration, and innovation. The ACM Europe School on MLIR 2026 is designed especially for beginners, offering a welcoming environment where students, early‑career researchers, and newcomers can take their first steps into MLIR, while still providing space for experts to meet, exchange ideas, and shape the future of the ecosystem together.
 
 Set on the seafront of Santa Cristina beach, in Perillo (A Coruña), the school combines hands‑on foundational courses with informal discussions, collaborative exercises, and community‑building activities in an inspiring seaside setting. Throughout the week, participants will learn the fundamentals of MLIR, explore practical applications across domains, and connect with developers and researchers from around the world. And if weather allows, we will also take the opportunity to observe the solar eclipse on August 12, making this edition not only technically enriching, but memorable on a personal level as well.
 
@@ -39,9 +39,16 @@ and will be in the beginner-focused spirit of the first MLIR (winter) school in 
 {: .notice--info}
 {% include feature_row id="feature_row_overview" %}
 
-{: .text-center}
 **Partners:**
-
-{: .text-center}
-![INRIA logo](/images/inria_logo.png){: width="25%"}
-![DeepGreen logo](/images/deepgreen_logo.png){: width="25%"}
+<div style="text-align: center;">
+  <div style="
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  ">
+    <img src="/images/inria_logo.png" style="height: 80px;">
+    <img src="/images/deepgreen_logo.png" style="height: 80px;">
+    <img src="/images/acm_europe_council.png" style="height: 80px;">
+  </div>
+</div>

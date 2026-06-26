@@ -45,7 +45,7 @@ feature_row_pc:
     label: "Program Co-Chair"
 ---
 
-*The MLIR Summer School 2026 is hosted by the University of A Coruña. Its organization is overseen by the steering committee. The event is supported by various international institutions and companies.*
+*The ACM Europe School on MLIR 2026 is hosted by the University of A Coruña. Its organization is overseen by the steering committee. The event is supported by various international institutions and companies.*
 
 {% include_cached feature_row id="feature_row_pc" %}
 
