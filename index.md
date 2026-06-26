@@ -47,8 +47,8 @@ and will be in the beginner-focused spirit of the first MLIR (winter) school in 
     align-items: center;
     gap: 2rem;
   ">
-    <img src="/images/inria_logo.png" style="height: 80px;">
-    <img src="/images/deepgreen_logo.png" style="height: 80px;">
-    <img src="/images/acm_europe_council.png" style="height: 80px;">
+    <img src="{{ '/images/inria_logo.png' | relative_url }}" style="height: 80px;">
+    <img src="{{ '/images/deepgreen_logo.png' | relative_url }}" style="height: 80px;">
+    <img src="{{ '/images/acm_europe_council.png' | relative_url }}" style="height: 80px;">
   </div>
 </div>
