@@ -56,6 +56,7 @@ feature_row_speakers:
 | 12:15 | [**Compiler Introduction**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Saday Sadayappan & Tobias Grosser* |
 | 14:00 | *Lunch* |
 | 16:00 | [**MLIR IR Introduction**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Théo Degioanni & Mathieu Fehr* |
+| 18:00 | *Break*
 | 19:00 | **Poster session** (not streamed) |
 | 21:00 | --- End of day--- |
 
@@ -66,9 +67,9 @@ feature_row_speakers:
 | ----- | ------------------------ |
 | 10:00 | [**ODS**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Markus Böck* |
 | 11:45 | *Coffee Break* |
-| 12:15 | [**Building transformations 1**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Matthias Springer* |
+| 12:15 | [**MLIR Fundamentals: Introduction to C++ IR Data Structures and APIs**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Matthias Springer* |
 | 14:00 | *Lunch* |
-| 16:00 | [**Building transformations 2**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Matthias Springer* |
+| 16:00 | [**MLIR Fundamentals: Pattern-based Transformations**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Matthias Springer* |
 | 17:45 | *Coffee break* |
 | 18:15 | [**Core transformations**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Markus Böck & Maximilian Bartel* |
 | 20:00 | --- End of day--- |
@@ -77,7 +78,7 @@ feature_row_speakers:
 
 | Time  | |
 | ----- | ------------------------ |
-| 10:00 | [**Interfaces**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Matthias Springer & Kunwar Grover* |
+| 10:00 | [**MLIR Fundamentals: Understanding Interfaces**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Matthias Springer & Kunwar Grover* |
 | 11:45 | *Coffee Break* |
 | 12:15 | [**Mutable variables and Mem2Reg**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Théo Degioanni* |
 | 14:00 | *Lunch* |
@@ -90,13 +91,13 @@ feature_row_speakers:
 
 | Time  | |
 | ----- | ------------------------ |
-| 10:00 | [**Data flow analysis**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Mathieu Fehr* |
+| 10:00 | [**Analysis Framework**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Mathieu Fehr* |
 | 11:45 | *Coffee Break* |
 | 12:15 | [**Cuda Tile IR**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Théo Degioanni* |
 | 14:00 | *Lunch* |
 | 16:00 | [**Digital Design with MLIR and CIRCT**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Louis Ledoux* |
 | 17:45 | *Coffee break* |
-| 18:15 | [**Linalg and Transform dialects**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Maximilian Bartel* |
+| 18:15 | [**Linalg and Transform Dialect**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Maximilian Bartel* |
 | 20:00 | --- End of day--- |
 
 <h2>Day 5 | Friday, Aug 14</h2>
