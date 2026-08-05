@@ -22,7 +22,7 @@ feature_row_overview:
 ---
 
 
-**Note:** Applications are closed. Applicants will receive information about their acceptance status in the next few weeks.
+**Note:** Applications are closed. Classes will be streamed online through Microsoft Teams. See [Program](/program) for details.
 {: .notice--info}
 
 MLIR is reshaping the future of compiler technology. In only a few years, it has grown into a foundational framework powering AI, EDA, HPC, quantum computing, and cutting‑edge cryptographic toolchains. Its rapidly expanding multi‑domain ecosystem offers unique opportunities for learning, collaboration, and innovation. The ACM Europe School on MLIR 2026 is designed especially for beginners, offering a welcoming environment where students, early‑career researchers, and newcomers can take their first steps into MLIR, while still providing space for experts to meet, exchange ideas, and shape the future of the ecosystem together.

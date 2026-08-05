@@ -42,49 +42,46 @@ feature_row_speakers:
     excerpt: "*NVIDIA*"
 ---
 
-**Note:** This is a preliminary program.
+**Note:** This is a dynamic event: our schedule evolves until and throughout the school.
 {: .notice--info}
-<!--
-**Note:** The MLIR School is a dynamic event → Our Schedule evolves until and throughout the school.
+**Note:** Classes will be streamed online through Microsoft Teams, see each session for the link. A recording of each session will be uploaded to the ACM Digital Library.
 {: .notice--info}
--->
 
 <h2>Day 1 | Monday, Aug 10</h2>
 
 | Time  | |
 | ----- | ------------------------ |
-| 10:00 | **Arrival & Intro**<br>*Kunwar Grover & Tobias Grosser* |
+| 10:00 | [**Arrival & Introduction**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Kunwar Grover & Tobias Grosser* |
 | 11:45 | *Coffee break* |
-| 12:15 | **Compiler Introduction**<br>*Tobias Grosser & Saday Sadayappan* |
+| 12:15 | [**Compiler Introduction**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Saday Sadayappan & Tobias Grosser* |
 | 14:00 | *Lunch* |
-| 16:00 | **MLIR IR Introduction**<br>*Théo Degioanni* |
-| 17:45 | *Coffee break* |
-| 18:15 | **Poster session** |
-| 20:00 | --- End of day--- |
+| 16:00 | [**MLIR IR Introduction**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Théo Degioanni & Mathieu Fehr* |
+| 19:00 | **Poster session** (not streamed) |
+| 21:00 | --- End of day--- |
 
 
 <h2>Day 2 | Tuesday, Aug 11</h2>
 
 | Time  | |
 | ----- | ------------------------ |
-| 10:00 | **ODS**<br>*Markus Böck* |
+| 10:00 | [**ODS**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Markus Böck* |
 | 11:45 | *Coffee Break* |
-| 12:15 | **Building transformations 1**<br>*Matthias Springer* |
+| 12:15 | [**Building transformations 1**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Matthias Springer* |
 | 14:00 | *Lunch* |
-| 16:00 | **Building transformations 2**<br>*Matthias Springer* |
+| 16:00 | [**Building transformations 2**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Matthias Springer* |
 | 17:45 | *Coffee break* |
-| 18:15 | **Core transformations**<br>*Matthias Springer* |
+| 18:15 | [**Core transformations**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Markus Böck & Maximilian Bartel* |
 | 20:00 | --- End of day--- |
 
 <h2>Day 3 | Wednesday, Aug 12</h2>
 
 | Time  | |
 | ----- | ------------------------ |
-| 10:00 | **Interfaces**<br>*Matthias Springer* |
+| 10:00 | [**Interfaces**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Matthias Springer & Kunwar Grover* |
 | 11:45 | *Coffee Break* |
-| 12:15 | **Mem2Reg**<br>*Théo Degioanni* |
+| 12:15 | [**Mutable variables and Mem2Reg**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Théo Degioanni* |
 | 14:00 | *Lunch* |
-| 16:00<br>17:45<br>18:15<br>20:00<br> | <br>*Solar*<br>*Eclipse*<br><br> |
+| 17:00<br><br><br>21:00<br> | <br>*Hike*<br>*&*<br>*Solar*<br>*Eclipse*<br><br> |
 | 22:00 | --- End of day--- |
 
 
@@ -93,13 +90,13 @@ feature_row_speakers:
 
 | Time  | |
 | ----- | ------------------------ |
-| 10:00 | **Data flow analysis**<br>*Mathieu Fehr* |
+| 10:00 | [**Data flow analysis**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Mathieu Fehr* |
 | 11:45 | *Coffee Break* |
-| 12:15 | **IR data structures and performance**<br>*Mathieu Fehr* |
+| 12:15 | [**Cuda Tile IR**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Théo Degioanni* |
 | 14:00 | *Lunch* |
-| 16:00 | **Cuda Tile IR** |
+| 16:00 | [**Digital Design with MLIR and CIRCT**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Louis Ledoux* |
 | 17:45 | *Coffee break* |
-| 18:15 | **Transform dialect**<br>*Maximilian Bartel* |
+| 18:15 | [**Linalg and Transform dialects**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Maximilian Bartel* |
 | 20:00 | --- End of day--- |
 
 <h2>Day 5 | Friday, Aug 14</h2>
@@ -107,9 +104,9 @@ feature_row_speakers:
 
 | Time  | |
 | ----- | ------------------------ |
-| 10:00 | **TBD**
-| 11:45 | *Coffee Break* |
-| 12:15 | **TBD**
+| 10:00 | **Participants' presentations 1** (not streamed)
+| 12:00 | *Coffee Break* |
+| 12:20 | **Participants' presentations 2** (not streamed)
 | 14:00 | --- *Closing & Lunch* --- |
 
 # Speakers
