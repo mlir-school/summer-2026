@@ -5,3 +5,5 @@ plugins:
   - jekyll-include-cache
 atom_feed:
   hide: true
+include:
+  - files/
