@@ -7,3 +7,4 @@ atom_feed:
   hide: true
 include:
   - files/
+  - files/**/_*
