@@ -7,4 +7,6 @@ atom_feed:
   hide: true
 include:
   - files/
-  - files/**/_*
+  # Jekyll filters nested entries by basename; include the notebook bundles
+  # regardless of their containing `assets/` directory.
+  - "_*.js"
