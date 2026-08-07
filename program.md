@@ -91,7 +91,7 @@ feature_row_speakers:
 
 | Time  | |
 | ----- | ------------------------ |
-| 10:00 | [**Analysis Framework**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Mathieu Fehr* |
+| 10:00 | [**Dataflow Analysis**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Mathieu Fehr* |
 | 11:45 | *Coffee Break* |
 | 12:15 | [**Introduction to Cuda Tile IR**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Théo Degioanni* |
 | 14:00 | *Lunch* |
