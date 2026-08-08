@@ -37,6 +37,7 @@ async def _():
 
     return xmo
 
+
 @app.cell(hide_code=True)
 def _(mo):
     mo.md("# ListLang frontend compiler")
