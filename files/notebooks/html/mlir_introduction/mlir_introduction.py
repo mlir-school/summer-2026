@@ -1236,7 +1236,7 @@ def _(mo, reset_button7):
 
     _initial_code = r"""let a = 3;
     let b = a..10;
-    b.len()"""
+    b.map(|x| x + 1).len()"""
 
     example_editor7 = mo.ui.code_editor(language="rs", value=_initial_code, label="MLIR code:")
 
@@ -1287,7 +1287,7 @@ def _(exercise20_tick, mo):
     * `cse` : Constant sub-expression elimination, the same pass as before
     * `lower-list-to-tensor` : Compiles the list abstraction to the `scf` and `tensor` dialects
     * `licm` (Loop Invariant Code Motion) : Hoist variables outside of loops when they do not depend on any variables inside the loop
-    * `optimize-lists: Apply domain-specific optimizations on the `list` dialect
+    * `optimize-lists`: Apply domain-specific optimizations on the `list` dialect, such as combining consecutive `list.map`
     """)
     return
 
@@ -1308,7 +1308,7 @@ def _(mo, reset_button20):
     c"""
 
     example_editor20 = mo.ui.code_editor(language="rs", value=_initial_code)
-    pass_editor20 = mo.ui.code_editor(value="optimize-lists,canonicalize,cse,lower-list-to-tensor,canonicalize,licm,cse", max_height=1)
+    pass_editor20 = mo.ui.code_editor(value="optimize-lists,canonicalize,cse,lower-list-to-tensor,licm,canonicalize,cse", max_height=1)
 
     mo.vstack([example_editor20, pass_editor20])
     return example_editor20, pass_editor20
