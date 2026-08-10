@@ -55,7 +55,7 @@ feature_row_speakers:
 | 11:45 | *Coffee break* |
 | 12:15 | [**Compiler Introduction**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Saday Sadayappan & Tobias Grosser* |
 | 14:00 | *Lunch* |
-| 16:00 | [**MLIR IR Introduction**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Théo Degioanni & Mathieu Fehr* |
+| 16:00 | [**MLIR IR Introduction**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Théo Degioanni & Mathieu Fehr*<br><a href="/summer-2026/files/notebooks/html/mlir_introduction">Notebook 1</a><br><a href="/summer-2026/files/notebooks/html/mlir_ir">Notebook 2</a><br><a href="/summer-2026/files/notebooks/html/listlang">ListLang compiler</a><br><a href="/summer-2026/files/notebooks/html/list_interp">List dialect interpreter</a> |
 | 18:00 | *Break*
 | 19:00 | **Poster session** (not streamed) |
 | 21:00 | --- End of day--- |

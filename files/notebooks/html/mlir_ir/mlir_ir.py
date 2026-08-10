@@ -42,9 +42,10 @@ async def _():
 def _(xmo):
     from xdsl.context import Context
     from xdsl.dialects import builtin, arith, func, scf
+    from xdsl.ir import Operation
     from xdsl.printer import Printer
     from typing import Any
-    return Any, Context, Printer, arith, builtin, func, scf
+    return Any, Context, Operation, Printer, arith, builtin, func, scf
 
 
 @app.cell(hide_code=True)
@@ -63,9 +64,8 @@ def _(mo):
 def _(mo, triangle_text):
     mo.md(
         rf"""
-    MLIR and xDSL use a textual encoding of the IR for debugging, testing, and storing intermediate representations of programs.
+    MLIR uses a textual encoding of the IR for debugging, testing, and storing intermediate representations of programs.
     It can be very useful to take a program at some stage of compilation, and inspect it.
-    The textual format makes this easy to do.
     Let's look at a representation of a function that sums the first `n` integers:
 
     {mo.ui.code_editor(triangle_text, language="javascript", disabled=True)}
@@ -80,6 +80,123 @@ def _(mo):
           func, arith and scf dialects """)
     return
 
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""## Generic and Custom Format""")
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(
+        r"""
+    All the snippets that we presented so far are in IRs that follow the _custom format_, a format that allows operations to specify a pretty and concise representation.
+    On the other hand, the _generic format_ is a more uniform and verbose representation that unambiguously shows the structure of an operation.
+    """
+    )
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo, triangle_text):
+    custom_syntax_editor = mo.ui.code_editor(
+        value="""\
+    %zero = arith.constant 0 : i32""",
+        language="javascript",
+        label="**Custom syntax**",
+        min_height=10,
+    )
+    return (custom_syntax_editor,)
+
+
+@app.cell(hide_code=True)
+def _(Parser, ctx, custom_syntax_editor, mo, print_generic):
+    try:
+        _module = Parser(ctx, custom_syntax_editor.value).parse_module()
+        _output = mo.ui.code_editor(
+            value=print_generic(_module),
+            language="javascript",
+            disabled=True,
+            label="**Generic syntax**",
+            min_height=30,
+        )
+    except Exception as _error:
+        _notes = getattr(_error, "__notes__", ())
+        _message = "\n".join((*_notes, str(_error)))
+        _error_output = mo.ui.code_editor(
+            value=_message,
+            language="text",
+            disabled=True,
+            label="Error",
+            min_height=200,
+        )
+        _output = mo.callout(_error_output, kind="danger")
+
+    mo.vstack(
+        (
+            mo.md(
+                """
+                You can edit the custom-syntax MLIR below to see how the generic syntax change.
+                """
+            ),
+            custom_syntax_editor,
+            _output,
+        )
+    )
+    return
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""## Attributes""")
+    return
+
+
+@app.cell(hide_code=True)
+def _(builtin, mo):
+    mo.md(
+        rf"""
+    Attributes hold compile-time data, such as constants, types, and other information. Let's look at the attributes in the `arith.constant` operation from earlier:
+
+    {mo.ui.code_editor("%zero = \"arith.constant\"() <{value = 0 : i32}> : () -> i32", language="javascript", disabled=True, min_height=20)}
+
+    The `<{{value = 0 : i32}}>` section represents the static information carried by the operation, which we call **properties**.
+    """
+    )
+    return
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""## The `builtin` Dialect""")
+    return
+
+
+@app.cell(hide_code=True)
+def _(generic_syntax, mo, xmo):
+    _empty_module_custom_text = """\
+    builtin.module {
+    }"""
+    _empty_module_generic_text = generic_syntax(
+        _empty_module_custom_text, include_module=True
+    )
+    mo.md(
+        rf"""
+    The [`builtin` dialect](https://mlir.llvm.org/docs/Dialects/Builtin/) contains the most commonly-used operation in MLIR and xDSL: the `builtin.module` operation.
+
+    A module is a unit of code which holds a single region.
+    The smallest possible piece of code in MLIR IR is an empty module:
+
+    **Custom syntax**
+
+    {xmo.module_html(_empty_module_custom_text)}
+
+    **Generic syntax**
+
+    {xmo.module_html(_empty_module_generic_text)}
+
+    When the first operation in a file is not a `builtin.module`, it is implicitly assumed and can be omitted, as is the case for all the snippets below.
+    """
+    )
+    return
 
 @app.cell(hide_code=True)
 def _(mo):
@@ -89,23 +206,30 @@ def _(mo):
 
 @app.cell(hide_code=True)
 def _():
-    swap_text = """\
+    swap_custom_text = """\
     func.func @swap(%a: i32, %b: i32) -> (i32, i32) {
       func.return %b, %a : i32, i32
     }"""
-    return (swap_text,)
+    return (swap_custom_text,)
 
 
 @app.cell(hide_code=True)
-def _(mo, swap_text, xmo):
+def _(generic_syntax, mo, swap_custom_text, xmo):
+    _swap_generic_text = generic_syntax(swap_custom_text)
     mo.md(
         rf"""
     The [func dialect](https://mlir.llvm.org/docs/Dialects/Func/) contains building blocks to model function definitions and calls.
 
-    {xmo.module_html(swap_text)}
+    **Custom syntax**
 
-    The above function takes two 32-bit integers, and returns them in the opposite order.
-    In this snippet, there are two operations, `func.func` for function definition and `func.return` to specify the returned values. All operations in MLIR are prefixed with their dialect name.
+    {xmo.module_html(swap_custom_text)}
+
+    **Generic syntax**
+
+    {xmo.module_html(_swap_generic_text)}
+
+    Both snippets represent the same function, which takes two 32-bit integers and returns them in the opposite order.
+    There are two operations: `func.func` for the function definition and `func.return` to specify the returned values. All operations in MLIR are prefixed with their dialect name.
     """
     )
     return
@@ -113,7 +237,11 @@ def _(mo, swap_text, xmo):
 
 @app.cell(hide_code=True)
 def _(mo):
-    mo.md(r"""### Exercise 1: Your First Function""")
+    mo.md(rf"""
+    ### Exercise 1: Your First Function
+
+    This function returns its first argument. Can you change it to return the second argument instead?
+    """)
     return
 
 
@@ -121,7 +249,6 @@ def _(mo):
 def _():
     first_text = """\
     func.func @first(%arg0: i32, %arg1: i32) -> i32 {
-        // Change this to return the second argument instead
         func.return %arg0 : i32
     }\
     """
@@ -176,12 +303,19 @@ def _():
 
 
 @app.cell(hide_code=True)
-def _(add_one_text, mo, xmo):
+def _(add_one_text, generic_syntax, mo, xmo):
+    _add_one_generic_text = generic_syntax(add_one_text)
     mo.md(
         rf"""
-    The [arith dialect](https://mlir.llvm.org/docs/Dialects/ArithOps/) contains arithmetic operations on integers, floating-point values, and other numeric constructs. To start with, here is a function that adds one to its only argument:
+    The [arith dialect](https://mlir.llvm.org/docs/Dialects/ArithOps/) contains arithmetic operations on integers, floating-point values, and other numeric constructs. Here is a function that adds one to its only argument:
+
+    **Custom syntax**
 
     {xmo.module_html(add_one_text)}
+
+    **Generic syntax**
+
+    {xmo.module_html(_add_one_generic_text)}
     """
     )
     return
@@ -197,19 +331,26 @@ def _(mo):
 def _():
     less_than_text = """\
     func.func @less_than(%a: i32, %b: i32) -> i1 {
-      %slt = arith.cmpi slt, %lhs, %rhs : i32
+      %slt = arith.cmpi slt, %a, %b : i32
       func.return %slt : i1
     }"""
     return (less_than_text,)
 
 
 @app.cell(hide_code=True)
-def _(less_than_text, mo, xmo):
+def _(generic_syntax, less_than_text, mo, xmo):
+    _less_than_generic_text = generic_syntax(less_than_text)
     mo.md(
         rf"""
     The `arith` dialect also contains operations for comparisons. The function below returns the value `true` if a is less than b when the 32-bit values passed in are interpreted as signed integers. Note that the signedness is communicated by the operation itself, not the types of the operands:
 
+    **Custom syntax**
+
     {xmo.module_html(less_than_text)}
+
+    **Generic syntax**
+
+    {xmo.module_html(_less_than_generic_text)}
     """
     )
     return
@@ -289,7 +430,7 @@ def _(mo):
 @app.cell(hide_code=True)
 def _():
     select_text = """\
-    func.func @select(%cond: i32, %a: i32, %b: i32) -> i32 {
+    func.func @select(%cond: i1, %a: i32, %b: i32) -> i32 {
       %res = scf.if %cond -> (i32) {
         scf.yield %a : i32
       } else {
@@ -301,12 +442,19 @@ def _():
 
 
 @app.cell(hide_code=True)
-def _(mo, select_text, xmo):
+def _(generic_syntax, mo, select_text, xmo):
+    _select_generic_text = generic_syntax(select_text)
     mo.md(
         rf"""
     Here is a function that returns the second argument if the first argument is `true`, and the third argument otherwise:
 
+    **Custom syntax**
+
     {xmo.module_html(select_text)}
+
+    **Generic syntax**
+
+    {xmo.module_html(_select_generic_text)}
 
     Note that we did not put early returns in the branches of the `scf.if` operation.
     This is due to MLIR's SSA blocks adhering to a specific contract: operations within a block are executed sequentially from top to bottom, and each operation is guaranteed to complete and yield control back to the outer block.
@@ -413,13 +561,20 @@ def _(mo):
 
 
 @app.cell(hide_code=True)
-def _(mo, triangle_text, xmo):
+def _(generic_syntax, mo, triangle_text, xmo):
+    _triangle_generic_text = generic_syntax(triangle_text)
     mo.md(
         rf"""
     The `scf` dialect also contains abstractions to represent for loops. For example,
     to caclulate the [triangular number](https://en.wikipedia.org/wiki/Triangular_number) 1 + 2 + 3 + ... + n:
 
+    **Custom syntax**
+
     {xmo.module_html(triangle_text)}
+
+    **Generic syntax**
+
+    {xmo.module_html(_triangle_generic_text)}
 
     Due to the SSA contract, we cannot accumulate by updating a value.
     Instead, the loop body takes some number of immutable values and yields the same number of values to use for the next loop.
@@ -509,132 +664,70 @@ def _(mo, xmo):
 
 @app.cell(hide_code=True)
 def _(mo):
-    mo.md(r"""## The `triangle` revisited""")
+    mo.md(r"""## Generic/Custom syntax playground""")
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(
+        r"""
+    Here is another playground to experiment with the custom and generic syntax.
+    """
+    )
     return
 
 
 @app.cell(hide_code=True)
 def _(mo, triangle_text):
-    mo.md(
-        rf"""
-    This notebook contains a very light overview of the most commonly used dialects and operations in MLIR and xDSL, as well as the key concepts of SSA and structured control flow (scf).
+    custom_syntax_editor2 = mo.ui.code_editor(
+        value=triangle_text,
+        language="javascript",
+        label="**Custom syntax**",
+    )
+    return (custom_syntax_editor2,)
 
-    {mo.ui.code_editor(triangle_text, language="javascript", disabled=True)}
 
-    The sections below are a deeper dive into some of the structures that were implicit in the IR snippets we looked at so far, reusing the `triangle` function from earlier.
-    """
+@app.cell(hide_code=True)
+def _(Parser, ctx, custom_syntax_editor, mo, print_generic):
+    try:
+        _module = Parser(ctx, custom_syntax_editor.value).parse_module()
+        _output = mo.ui.code_editor(
+            value=print_generic(_module),
+            language="javascript",
+            disabled=True,
+            label="**Generic syntax**",
+        )
+    except Exception as _error:
+        _notes = getattr(_error, "__notes__", ())
+        _message = "\n".join((*_notes, str(_error)))
+        _error_output = mo.ui.code_editor(
+            value=_message,
+            language="text",
+            disabled=True,
+            label="Error",
+        )
+        _output = mo.callout(_error_output, kind="danger")
+
+    mo.vstack(
+        (
+            mo.md(
+                """
+                Edit the custom-syntax MLIR below to see its generic syntax.
+                """
+            ),
+            custom_syntax_editor,
+            _output,
+        )
     )
     return
 
 
 @app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""## The `builtin` Dialect""")
-    return
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(
-        r"""
-    The [`builtin` dialect](https://mlir.llvm.org/docs/Dialects/Builtin/) contains the most commonly-used operation in MLIR and xDSL: the `builtin.module` operation.
-
-    A module is a unit of code which holds a single region.
-    The smallest possible piece of code in MLIR IR is an empty module:
-
-    ```
-    builtin.module {
-    }
-    ```
-
-    When the first operation in a file is not a `builtin.module`, it is implicitly assumed and can be omitted, as is the case for all the snippets above.
-    """
-    )
-    return
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""## Attributes""")
-    return
-
-
-@app.cell(hide_code=True)
-def _(builtin, mo):
-    mo.md(
-        rf"""
-    Attributes hold compile-time data, such as constants, types, and other information.
-
-    The IR for the `triangle` snippet contains four attributes: `@triangle`, `0`, `1` and `i32`.
-    The `i32` attribute is the type of integer values that fit in a register on the target platform.
-    As the IR presented here is independent of the machine on which it will be executed on, we do not yet specify the bitwidth of the integer.
-    In MLIR, the common way to represent integers of 16, 32, 64, or other bitwidths is, respectively, with the types of `i16`, `i32`, `i64`, etc.
-    The `@triangle` attribute is a symbol name, denoting the name of the function.
-
-    There are many other attributes, and a lot of them are part of the `builtin` dialect.
-    We will look into defining those in a later notebook, and will only be using attributes from the `builtin` dialect here.
-
-    One important attribute is the dictionary attribute, which looks like this:
-
-    ```
-    {builtin.DictionaryAttr({
-        "some_string": builtin.StringAttr("my_string"),
-        "some_int": builtin.IntegerAttr(42, builtin.i32),
-        "some_float": builtin.FloatAttr(3.1415, builtin.f32),
-        "a_unit_attr": builtin.UnitAttr()
-    })}
-    ```
-
-    The last entry denotes a key-value pair (i.e., `a_unit_attr: unit`) where the omitted value is the `unit` attribute.
-    """
-    )
-    return
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""## Generic Format""")
-    return
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(
-        r"""
-    All the snippets presented so far are in IRs that follow the _custom format_, a format that allows operations to specify a pretty and concise representation.
-    On the other hand, the _generic format_ is a more uniform and verbose representation that unambiguously shows the structure of an operation.
-    Here is the above `triangle` function in generic format:
-    """
-    )
-    return
-
-
-@app.cell(hide_code=True)
-def _(Parser, Printer, StringIO, ctx, mo, triangle_text):
-    _triangle_module = Parser(ctx, triangle_text).parse_module()
-    _file = StringIO()
-    Printer(print_generic_format=True, stream=_file).print_op(_triangle_module)
-    mo.md(
-        f"""
-    ```
-    {_file.getvalue()}
-    ```
-    """
-    )
-    return
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""In the next notebooks, we will take a deeper dive into the APIs used to process and construct MLIR IR.""")
-    return
-
-
-@app.cell(hide_code=True)
-def _(Printer, StringIO, builtin):
-    def print_generic(module: builtin.ModuleOp) -> str:
+def _(Operation, Printer, StringIO):
+    def print_generic(op: Operation) -> str:
         io = StringIO()
-        Printer(io, print_generic_format=True).print(module)
+        Printer(io, print_generic_format=True).print_op(op)
         return io.getvalue()
     return
 
@@ -677,6 +770,17 @@ def _(ctx, triangle_text):
     triangle_module = Parser(ctx, triangle_text, "").parse_module()
     # triangle_module
     return Parser, StringIO
+
+
+@app.cell(hide_code=True)
+def _(Parser, ctx, print_generic):
+    def generic_syntax(source: str, *, include_module: bool = False) -> str:
+        module = Parser(ctx, source).parse_module()
+        module.verify()
+        op = module if include_module else module.body.ops.first
+        return print_generic(op)
+
+    return (generic_syntax,)
 
 
 @app.cell(hide_code=True)
@@ -735,6 +839,7 @@ def _(Any, Parser, ctx, run_func):
     """
         return info_text
     return (exercise_text,)
+
 
 
 if __name__ == "__main__":
