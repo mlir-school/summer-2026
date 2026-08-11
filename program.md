@@ -65,7 +65,7 @@ feature_row_speakers:
 
 | Time  | |
 | ----- | ------------------------ |
-| 10:00 | [**ODS**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Markus Böck* |
+| 10:00 | [**ODS**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Markus Böck*<br>[*Slides*](files/slides/D02-S01-ODS.pdf)|
 | 11:45 | *Coffee Break* |
 | 12:15 | [**MLIR Fundamentals: Introduction to C++ IR Data Structures and APIs**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Matthias Springer* |
 | 14:00 | *Lunch* |
