@@ -65,13 +65,13 @@ feature_row_speakers:
 
 | Time  | |
 | ----- | ------------------------ |
-| 10:00 | [**ODS**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Markus Böck*<br>[*Slides*](files/slides/D02-S01-ODS.pdf)|
+| 10:00 | [**ODS**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Markus Böck*<br>[*Slides*](/files/slides/D02-S01-ODS.pdf)|
 | 11:45 | *Coffee Break* |
-| 12:15 | [**MLIR Fundamentals: Introduction to C++ IR Data Structures and APIs**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Matthias Springer*<br>[*Slides*](files/slides/D02-S02-MLIR-Fundamentals-01.pdf) |
+| 12:15 | [**MLIR Fundamentals: Introduction to C++ IR Data Structures and APIs**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Matthias Springer*<br>[*Slides*](/files/slides/D02-S02-MLIR-Fundamentals-01.pdf) |
 | 14:00 | *Lunch* |
-| 16:00 | [**MLIR Fundamentals: Pattern-based Transformations**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Matthias Springer* |
+| 16:00 | [**MLIR Fundamentals: Pattern-based Transformations**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Matthias Springer*<br>[*Slides*](/files/slides/D02-S03-MLIR-Fundamentals-02.pdf) |
 | 17:45 | *Coffee break* |
-| 18:15 | [**Core transformations**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Markus Böck & Maximilian Bartel* |
+| 18:15 | [**Core transformations**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Markus Böck & Maximilian Bartel*<br>[*Slides*](/files/slides/D02-S04-Core-Transformations.pdf) |
 | 20:00 | --- End of day--- |
 
 <h2>Day 3 | Wednesday, Aug 12</h2>
