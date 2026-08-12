@@ -80,7 +80,7 @@ feature_row_speakers:
 | ----- | ------------------------ |
 | 10:00 | [**MLIR Fundamentals: Understanding Interfaces**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Matthias Springer & Kunwar Grover*<br>[*Slides*](/files/slides/D03-S01-MLIR-Fundamentals-03.pdf) |
 | 11:45 | *Coffee Break* |
-| 12:15 | [**Mutable variables and Mem2Reg**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Théo Degioanni* |
+| 12:15 | [**Mutable variables and Mem2Reg**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Théo Degioanni*<br>[*Slides*](/files/slides/D03-S02-MutableVariablesMem2Reg.pdf)<br>[*MemorySlotInterfaces.td*](https://github.com/llvm/llvm-project/blob/main/mlir/include/mlir/Interfaces/MemorySlotInterfaces.td)<br>[*MemorySlotUtils.h*](https://github.com/llvm/llvm-project/blob/main/mlir/lib/Interfaces/Utils/MemorySlotUtils.cpp) |
 | 14:00 | *Lunch* |
 | 17:00<br><br><br>21:00<br> | <br>*Hike*<br>*&*<br>*Solar*<br>*Eclipse*<br><br> |
 | 22:00 | --- End of day--- |
