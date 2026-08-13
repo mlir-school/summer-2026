@@ -105,10 +105,21 @@ feature_row_speakers:
 
 | Time  | |
 | ----- | ------------------------ |
-| 10:00 | **Participants' presentations 1** (not streamed)
-| 12:00 | *Coffee Break* |
-| 12:20 | **Participants' presentations 2** (not streamed)
-| 14:00 | --- *Closing & Lunch* --- |
+| | **Participants' presentations 1** (not streamed)
+| 10:00-10:20 | *Alastair Reid* -- An MLIR backend for ISA specifications |
+| 10:20-10:40 | *Stefan Abi-Karam* -- AI-Driven Hardware Design With High-Level Synthesis (HLS) Compilers |
+| 10:40-11:00 | *Edward Erasmie-Jones* -- Towards a Domain-Specific Compiler for Computational Fluid Dynamics Using MLIR |
+| 11:00-11:20 | *Ioana Ghiban* -- On embedding ML inside LLVM: From TOSA, via EmitC, to LLVM |
+| 11:20-11:40 | *René Zander* -- Qrisp: From High-Level Quantum Programming to MLIR |
+| 11:40-12:00 | *Juan Gallego* -- MLIR-based compilation for automatic acceleration deployment on CGRAs |
+| | **Coffee Break** |
+| | **Participants' presentations 2** (not streamed) |
+| 12:20-12:40 | *Edward Stow* -- Compilation for Quantum Error Correction |
+| 12:40-13:00 | *Matt Arsenault* -- The Trouble With Triples |
+| 13:00-13:20 | *Aidan Dakhama* -- CONQuER: Hardware-Aware Mixed-Precision Quantisation with Online-Calibrated Surrogates |
+| 13:20-13:40 | *Björn Striebing* -- AI Microburst: From Cloud to the Far Edge in One Burst |
+| 13:40-14:00 | *Luca Parigi* -- An MLIR-based approach for lowering OpenMP constructs on heterogeneous runtimes |
+| | **Closing & Lunch** |
 
 # Speakers
 
