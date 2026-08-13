@@ -95,7 +95,7 @@ feature_row_speakers:
 | 11:45 | *Coffee Break* |
 | 12:15 | [**Introduction to CUDA Tile IR**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Théo Degioanni*<br>[*Slides*](/files/slides/D04-S02-CUDATileIR.pdf) |
 | 14:00 | *Lunch* |
-| 16:00 | [**Digital Design with MLIR and CIRCT**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Louis Ledoux* |
+| 16:00 | [**Digital Design with MLIR and CIRCT**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Louis Ledoux*<br>[*Slides*](https://bynaryman.github.io/assets/courses/mlir-circt-summer-school-2026/mlir-circt-summer-school-2026.html#/title-slide) |
 | 17:45 | *Coffee break* |
 | 18:15 | [**Linalg and Transform Dialect**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Maximilian Bartel*<br>[*Slides*](/files/slides/D04-S04-LinalgAndTransformDialect.pdf) |
 | 20:00 | --- End of day--- |
