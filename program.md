@@ -97,7 +97,7 @@ feature_row_speakers:
 | 14:00 | *Lunch* |
 | 16:00 | [**Digital Design with MLIR and CIRCT**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Louis Ledoux* |
 | 17:45 | *Coffee break* |
-| 18:15 | [**Linalg and Transform Dialect**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Maximilian Bartel* |
+| 18:15 | [**Linalg and Transform Dialect**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Maximilian Bartel*<br>[*Slides*](/files/slides/D04-S04-LinalgAndTransformDialect.pdf) |
 | 20:00 | --- End of day--- |
 
 <h2>Day 5 | Friday, Aug 14</h2>
