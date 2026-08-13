@@ -93,7 +93,7 @@ feature_row_speakers:
 | ----- | ------------------------ |
 | 10:00 | [**Dataflow Analysis**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Mathieu Fehr* |
 | 11:45 | *Coffee Break* |
-| 12:15 | [**Introduction to Cuda Tile IR**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Théo Degioanni* |
+| 12:15 | [**Introduction to CUDA Tile IR**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Théo Degioanni*<br>[*Slides*](/files/slides/D04-S02-CUDATileIR.pdf) |
 | 14:00 | *Lunch* |
 | 16:00 | [**Digital Design with MLIR and CIRCT**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Louis Ledoux* |
 | 17:45 | *Coffee break* |
