@@ -53,7 +53,7 @@ feature_row_speakers:
 | ----- | ------------------------ |
 | 10:00 | [**Arrival & Introduction**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Kunwar Grover & Tobias Grosser* |
 | 11:45 | *Coffee break* |
-| 12:15 | [**Compiler Introduction**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Saday Sadayappan & Tobias Grosser* |
+| 12:15 | [**Compiler Introduction**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Saday Sadayappan & Tobias Grosser*<br>[*Slides*](/files/slides/D01-S02-CompilerIntroduction.pdf) |
 | 14:00 | *Lunch* |
 | 16:00 | [**MLIR IR Introduction**](https://teams.microsoft.com/meet/392862543139290?p=zFDG0o6g5d5Z4GtcHE)<br>*Théo Degioanni & Mathieu Fehr*<br><a href="/summer-2026/files/notebooks/html/mlir_introduction">Notebook 1</a><br><a href="/summer-2026/files/notebooks/html/mlir_ir">Notebook 2</a><br><a href="/summer-2026/files/notebooks/html/listlang">ListLang compiler</a><br><a href="/summer-2026/files/notebooks/html/list_interp">List dialect interpreter</a> |
 | 18:00 | *Break*
